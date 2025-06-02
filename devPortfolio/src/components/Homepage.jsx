@@ -1,10 +1,9 @@
 import "../styles/homepage.css";
 // begin image imports
 import retroCartoon from "../images/homepageimgs/retroCartoon.jpeg";
-import triangle from "../images/homepageimgs/triangle.svg";
-import square from "../images/homepageimgs/square.svg";
-import hexagon from "../images/homepageimgs/hexagon.svg";
-import reactLogo from '../images/homepageimgs/react-2.svg'
+import linkedIn from '../images/homepageimgs/linkedIn.svg';
+import email from '../images/homepageimgs/email.svg';
+import github from '../images/homepageimgs/github.svg';
 // end image imports
 function Homepage() {
   return (
@@ -32,16 +31,23 @@ function Homepage() {
             className="cartoonGirl"
           />
 
-          <img src={reactLogo} alt="react logo" className="reactLogo" />
 
-          <h1 className="nameIntro">
-            Hi, I'm <span className="name">Cassandra</span>
-          </h1>
+          <div className="nameIntro">
+            <div className="socials">
+              <img src={linkedIn} alt="linkedIn logo" className="linkedIn" />
+              <img src={email} alt="mail logo" className="email" />
+              <img src={github} alt="github logo" className="github" />
+            </div>
+              <h1>
+                <span className='innerNameIntro'>Hi, I'm <span className="name">Cassandra</span></span><br/>
+                <span className="jobIntro">Web developer</span>
+              </h1><br/>
 
-          <h3 className="jobIntro">Web Developer</h3>
+              <p>Passion for bridging creativity with technicality.</p>
 
-          <div className="resumeBtn">
-            <button>Resume</button>
+              <div className="resumeBtn">
+                <button>Resume</button>
+              </div>
           </div>
         </main>
       </div>
