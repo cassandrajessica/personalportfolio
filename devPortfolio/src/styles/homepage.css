@@ -1,8 +1,4 @@
-.backgroundContainer {
-  background-color: black;
-  background-image: url('../images/homepageimgs//background.svg');
-  padding: 2em;
-}
+
 
 .navLinks {
   display: flex;
@@ -38,7 +34,8 @@
     "headerImg nameIntro"
     "headerImg .";
   border-radius: 10px;
-  box-shadow: 0 0 20px rgb(51, 241, 255);
+  box-shadow: 0 0 12px rgb(51, 241, 255);
+  border: 1px solid white;
   padding: 4em;
   margin-top: 1rem;
   background-color: black;
