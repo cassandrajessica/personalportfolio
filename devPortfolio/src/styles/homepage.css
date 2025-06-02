@@ -1,0 +1,115 @@
+.backgroundContainer {
+  background-color: black;
+  padding: 2em;
+}
+
+.navLinks {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: white;
+}
+
+.container {
+  display: grid;
+  gap: 0.5em;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "headerImg reactLogo"
+    "headerImg nameIntro"
+    "headerImg jobIntro"
+    "headerImg button"
+    "headerImg .";
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgb(51, 241, 255);
+  padding: 4em;
+  margin-top: 1rem;
+}
+
+.reactLogo {
+    width: 40%;
+    grid-area: reactLogo;
+    justify-self: center;
+    animation-name: spin;
+    animation-duration: 8000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear
+}
+
+
+
+
+.cartoonGirl {
+  width: 100%;
+  border-radius: 50%;
+  grid-area: headerImg;
+  box-shadow: 0 0 15px rgb(51, 241, 255);
+}
+
+.lightbulb {
+  width: 15%;
+  grid-row: 1 / 3;
+  grid-area: lightbulb;
+  justify-self: center;
+  align-self: end;
+}
+
+.nameIntro {
+  grid-area: nameIntro;
+  color: white;
+  align-self: end;
+  padding-left: 3rem;
+  font-size: 2.5rem;
+}
+
+.jobIntro {
+  grid-area: jobIntro;
+  color: white;
+  padding-left: 3rem;
+  font-size: 1.5rem;
+}
+
+.resumeBtn {
+  grid-area: button;
+  padding-left: 3rem;
+}
+
+.resumeBtn button {
+  padding: 1em;
+  border-radius: 8px;
+  border: 1px solid rgb(51, 241, 255);
+  background-color: transparent;
+  color: white;
+}
+
+button:hover {
+  background-color: rgb(51, 241, 255);
+  color: black;
+  cursor: pointer;
+}
+
+.homeTitle,
+.innerHomeTitle {
+  font-family: "Anton", sans-serif;
+  z-index: 9999;
+}
+
+.homeTitle {
+    font-size: 1.3rem;
+}
+
+.innerHomeTitle {
+  color: rgb(51, 241, 255);
+}
+
+.name {
+  color: rgb(51, 241, 255);
+}
