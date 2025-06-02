@@ -11,9 +11,9 @@ function Homepage() {
       <div className="backgroundContainer">
         <nav className="navBar">
           <div className="homeTitle">
-            <span>
+            <a href="/"><span>
               C.L.V<span className="innerHomeTitle">PORTFOLIO</span>
-            </span>
+            </span></a>
           </div>
 
           <ul className="navLinks">
