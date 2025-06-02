@@ -127,7 +127,7 @@ button:hover {
 
 /* BREAK POINTS */
 
-@media screen and (max-width: 43em) {
+@media screen and (max-width: 44em) {
   .container {
     grid-template-columns: 1fr;
     grid-template-areas: 
