@@ -10,6 +10,15 @@
   gap: 1rem;
 }
 
+.navLinks li {
+  letter-spacing: 1px;
+}
+
+.navLinks li:hover {
+  cursor: pointer;
+  color: rgb(51, 241, 255);
+}
+
 .navBar {
   display: flex;
   justify-content: space-between;
@@ -93,11 +102,14 @@ button:hover {
 .homeTitle,
 .innerHomeTitle {
   font-family: "Anton", sans-serif;
-  z-index: 9999;
 }
 
 .homeTitle {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+}
+
+.homeTitle:hover {
+  cursor: pointer;
 }
 
 .innerHomeTitle {
@@ -122,6 +134,14 @@ button:hover {
 .socials img:hover {
   cursor: pointer;
   transform: scale(1.2);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited, a:hover, a:active {
+  color: inherit;
 }
 
 
